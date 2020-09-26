@@ -1,1 +1,1 @@
-select * from brewers where City != 'Leuven' and ZipCode >= 4000 and Turnover <= 1000
+select * from brewers where City <> 'Leuven' and ZipCode >= 4000 and Turnover <= 1000
