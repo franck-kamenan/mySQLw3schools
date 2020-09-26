@@ -1,1 +1,3 @@
-select * from brewers where City in ('Diest', 'Durbuy', 'Leuven')
+update brewers
+set Name = 'Muteba', City = 'Leuven'
+where City = 'Alken'
