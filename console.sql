@@ -1,3 +1,2 @@
-update brewers
-set Name = 'Gaolong', City = 'Wongsawat'
-where id = 14
+select * from brewers
+limit 14
