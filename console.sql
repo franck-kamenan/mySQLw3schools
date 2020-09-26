@@ -1,2 +1,3 @@
 select * from brewers
-limit 14
+where ZipCode < 7000
+limit 10
