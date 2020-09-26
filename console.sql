@@ -1,3 +1,3 @@
 update brewers
-set Name = 'Muteba', City = 'Leuven'
-where City = 'Alken'
+set Name = 'Gaolong', City = 'Wongsawat'
+where id = 14
