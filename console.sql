@@ -1,2 +1,2 @@
-select sum(Turnover) from brewers
-where ZipCode < 7000
+select * from brewers
+where ZipCode like '7%' and Name like '%e'
