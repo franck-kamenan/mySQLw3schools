@@ -1,1 +1,1 @@
-select Name as nom, City as ville from brewers
+select concat(Address,', ', City) as ville from brewers
