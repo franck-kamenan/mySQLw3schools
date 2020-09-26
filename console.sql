@@ -1,2 +1,1 @@
-select * from brewers
-where ZipCode like '7%' and Name like '%e'
+select Name as nom, City as ville from brewers
