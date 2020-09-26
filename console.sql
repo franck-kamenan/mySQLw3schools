@@ -1,3 +1,2 @@
-select max(City) from brewers
+select avg(Turnover) from brewers
 where ZipCode < 7000
-limit 10
