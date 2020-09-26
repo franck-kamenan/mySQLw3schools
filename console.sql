@@ -1,2 +1,2 @@
-select avg(Turnover) from brewers
+select sum(Turnover) from brewers
 where ZipCode < 7000
