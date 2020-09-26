@@ -1,1 +1,1 @@
-select count(distinct City) from brewers
+select * from brewers where City = 'Leuven' and ZipCode > 2000 or Turnover < 1000
